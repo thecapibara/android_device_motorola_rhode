@@ -10,19 +10,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/rhode/device.mk)
 
-# Inherit some common Infinity stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
-
-INFINITY_BUILD_TYPE := UNOFFICIAL
-INFINITY_MAINTAINER := "JustGL"
-TARGET_SUPPORTS_BLUR := false
-WITH_GAPPS := true
-TARGET_SHIPS_FULL_GAPPS := false
-TARGET_SHIPS_GOOGLE_DIALER := false
-USE_MOTO_CALCULATOR := true
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := infinity_rhode
+PRODUCT_NAME := lineage_rhode
 PRODUCT_DEVICE := rhode
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g52
