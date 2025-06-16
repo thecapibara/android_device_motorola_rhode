@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_rhode.mk
+    $(LOCAL_DIR)/voltage_rhode.mk
