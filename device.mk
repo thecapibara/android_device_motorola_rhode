@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/rhode/rhode-vendor.mk)
 
-#MotoCamera 4
+#MotoCamera 4 by Deivid21
 TARGET_MOTCAMERA4 := rhode
 TARGET_USES_MOTCAMERA4 := true
 
